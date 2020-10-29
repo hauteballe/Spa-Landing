@@ -770,3 +770,8 @@ form .rnd-button:hover {
     margin-bottom: 30px;
     text-align: center;
 }
+
+.test-css {
+    display: inline;
+    margin: auto;
+}
