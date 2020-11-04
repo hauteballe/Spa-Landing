@@ -84,7 +84,7 @@ nav a {
     font-size: 60px;
     font-family: 'Rufina', serif;
     font-weight: 700;
-    line-height: 75px;
+    line-height: 60px;
     margin-bottom: 25px;
     margin-top: 0;
 }
@@ -102,18 +102,28 @@ nav a {
 }
 .banner-content .button {
     background-color: #ff817e;
-    color: white;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    /* line-height: 0.8; */
     text-transform: uppercase;
+    min-width: 170px;
+    padding: 20px 15px;
     text-decoration: none;
-    width: 170px;
-    height: 20px;
-    padding: 20px 0;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    box-sizing: border-box;
 }
 .banner-content .button a {
     color: white;
     text-decoration: none;
-    padding-left: 25px;
-    margin-bottom: 25px;
+    /* padding-left: 25px; */
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+    margin: auto;
     font-size: 18px;
     font-weight: 500;
 }
@@ -126,7 +136,7 @@ nav a {
     color: #ff817e;
     text-align: center;
     margin-right: 10px;
-    margin-left: 40px;
+    margin-left: 15px;
     height: 54px;
     width: 54px;
     vertical-align: middle;
@@ -136,20 +146,25 @@ nav a {
     padding-left: 22px;
    
 }
-.round-button img {
+.round-button i.fab, .round-button i.fas {
     padding: 20px 50px 10px 0;
     width: 15px;
     height: 15px;
     text-align: center;
+    color: #ff817e;
 }
 
 .buttons {
-    display: inline-flex;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;    
 }
 .button-1 a{
     color: #1e2528;
     text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
 }
 .button-1 a:hover{
     color: #ff817e;
@@ -202,7 +217,9 @@ nav a {
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
-
+}
+.about-box-inside a:hover {
+    color: #212529;;;
 }
 .about-heading {
     margin-bottom: 70px;
@@ -528,7 +545,7 @@ width:76px;
     border-radius: 50%; 
     color: #30383b;
     display: inline-block;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
     line-height: 30px;
     margin: 0 5px;
@@ -536,13 +553,6 @@ width:76px;
     width: 30px;
     text-decoration: none;
     box-sizing: border-box;
-}
-.memb-social img {
-    height:15px;
-    width: 15px;
-    padding-top: 6px;
-    margin: auto;
-    vertical-align: middle;
 }
 .memb-social {
     display: none;
@@ -553,6 +563,7 @@ width:76px;
 
 .memb-social a:hover {
     background-color: #ff817e;
+    color: #f0f0f0;
     border: none;
 }
 
@@ -775,3 +786,4 @@ form .rnd-button:hover {
     display: inline;
     margin: auto;
 }
+с
